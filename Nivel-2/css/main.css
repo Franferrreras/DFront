@@ -374,6 +374,11 @@ fieldset { padding: 1px; margin: 0; border: 0; }
         padding: 5px;
         margin: 5px;
         font-weight: bold;
+        cursor: pointer;
+    }
+
+    .nav-item:hover {
+        background-color: rgba(255, 195, 126, 0.774);
     }
 
     .profile {
@@ -382,17 +387,25 @@ fieldset { padding: 1px; margin: 0; border: 0; }
         justify-content: space-between;
 
         width: 20%;
+        cursor: pointer;
     }
+    
 
     .profile-img-container {
         width: 45%;
     }
     .profile img {
         border-radius: 50%;
+        transition: transform .5s;
+    }
+
+    .profile-img:hover {
+        transform: scale(1.05);
     }
 
     .branding {
         width: 15%;
+        cursor: pointer;
     }
 
     .b-logo {
@@ -457,6 +470,11 @@ fieldset { padding: 1px; margin: 0; border: 0; }
         color: white;
         width: 17%;
         margin-left: 4px;
+        cursor: pointer;
+    }
+
+    .search-button:hover {
+        background-color: #888888;
     }
 
     
@@ -507,6 +525,11 @@ fieldset { padding: 1px; margin: 0; border: 0; }
     .category {
         width: 23%;
         font-size: 1em;
+        transition: transform .5s;
+    }
+
+    .category:hover {
+        transform: scale(1.05);
     }
 
     /*______FULL BANNER______*/
@@ -518,6 +541,14 @@ fieldset { padding: 1px; margin: 0; border: 0; }
         margin: 0px auto;
     }
 
+    .fb-p {
+        transition: transform .5s;
+        cursor: pointer;
+    }
+
+    .fb-p:hover {
+        transform: scale(1.05);
+    }
 
     /*_______FOOTER__________*/
 
@@ -572,7 +603,14 @@ fieldset { padding: 1px; margin: 0; border: 0; }
         padding: 5px;
     }
 
-    
+    .nav-content-a:hover,  .footer-p:hover {
+        background-color: rgb(88, 86, 86);
+        padding: 2px;
+        color: white;
+        cursor: pointer;
+    }
+
+
 
     .footer-item:last-child .nav-content-i {
         width: 10%;

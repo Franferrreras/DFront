@@ -286,6 +286,48 @@
 
     }
 
+    @media (min-width: $breakpoint-sm) {
+
+        html {
+            font-size: 1.5vw;
+        }
+
+        header {
+            width: 100%;
+        }
+        main {
+            width: 100%;
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: repeat(9,auto);
+            column-gap: 15px;
+        }
+
+        .card {
+            align-self: flex-start;
+            border-bottom: 5px;
+        }
+        .mails {
+            grid-column: 2;
+            grid-row: 1/3;
+        }
+
+        .eventos {
+            grid-row: 1/2;
+        }
+
+        .notificaciones {
+            grid-row: 2/4;
+        }
+        .proyectos {
+            grid-column: 2;
+            grid-row: 3/6;
+        }
+        .contactos {
+            grid-row: 6/9
+        }
+    }
+
 
 
     

@@ -1,0 +1,9 @@
+@mixin  sombra($tiempo) {
+    transition: $tiempo ;
+
+    &:hover {
+        transform: scale(1.005);
+        box-shadow: 8px 8px 5px #808080;
+        cursor: pointer;
+    }
+}

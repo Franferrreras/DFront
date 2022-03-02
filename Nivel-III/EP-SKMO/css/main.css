@@ -430,5 +430,22 @@
 
   .contactos {
     grid-row: 6/9; } }
+@media (min-width: 1024px) {
+  html {
+    font-size: 1vw; }
+
+  main {
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto); }
+
+  .mails {
+    grid-column: 2; }
+
+  .eventos {
+    grid-column: 1; }
+
+  .contactos {
+    grid-column: 3;
+    grid-row: 1; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -329,6 +329,31 @@
     }
 
 
+    @media (min-width: $breakpoint-lg) {
+
+        html {
+            font-size: 1vw;
+        }
+
+        main {
+            grid-template-columns: repeat(3,auto);
+            grid-template-rows: repeat(2,auto);
+        }
+
+        .mails {
+            grid-column: 2;
+        }
+
+        .eventos {
+            grid-column: 1;
+        }
+        .contactos {
+            grid-column: 3;
+            grid-row: 1;
+        }
+    }
+
+
 
     
     

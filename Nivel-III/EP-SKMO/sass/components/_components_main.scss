@@ -352,8 +352,38 @@
             grid-row: 1;
         }
 
+
+    }
+
+    @media (min-width: $breakpoint-xl) {
+
+        html {
+            font-size: .8vw;
+        }
+        main {
+            grid-template-columns: repeat(6,auto);
+            grid-template-rows: repeat(4,auto);
+            column-gap: 15px;
+            row-gap: 15px;
+        }
+
+        .mails {
+            grid-column: 2/6;
+            margin: 0px;
+        }
+
+        .proyectos {
+            grid-column: 2/6;
+            grid-row: 3;
+        }
+        .contactos {
+            grid-column: 6;
+            grid-row: 1;
+            margin: 0px;
+        }
         
     }
+
 
 
 

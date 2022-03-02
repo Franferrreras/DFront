@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2d13812713.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- Navigation -->
+            <nav class="menu__container">
+                <!-- Branding -->
+                <div class="branding">
+                    <i class="fa fa-bars"></i>
+                    <a class="branding__contenido" href="">
+                        <img class="logo__alter" src="img/eK.png" alt="" class="branding__img">
+                        <img class="logo__main" src="img/EverisLogo2.png" alt="">
+                    </a>
+                </div>
+                <!---->
+                <div class="menu__main">
+                    <!-- Search -->
+                    <div class="search">
+                        <form action="">
+                            <label for="search" class="label__search"></label>
+                            <input type="search" id="search" placeholder="Proyecto skm">
+                        </form>
+                    </div>
+                    <div class="menu__content">
+                        <ul class="menu">
+                            <li class="menu__item">
+                                <i class="fa fa-home" aria-hidden="true"></i>
+                                <span class="menu__span">Inicio</span>
+                            </li>
+                            <li class="menu__item">
+                                <i class="fa fa-th-large" aria-hidden="true"></i>
+                                <span class="menu__span">Aplicaciones</span>
+                            </li>
+                            <li class="menu__item">
+                                <i class="fa fa-globe"></i>
+                                <span class="menu__span">Comunidades</span>
+                            </li>
+                            <li class="menu__item">
+                                <img class="everis__icon" src="img/everis_icono.png" alt="">
+                                <span class="menu__span">EverisPedia</span>
+                            </li>
+                        </ul>
+                        <i class="fa fa-search" id="activar"></i>
+                    </div>
+                    <div class="perfil">
+                        <i class="fa fa-bell perfil__hover"></i>
+                        <div class="perfil__content">
+                            <img class="perfil__img perfil__hover" src="img/perfil.jpg" alt="">
+                            <i class="fa fa-caret-down perfil__hover"></i>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="card eventos">
+                <div class="card__header">
+                    <div class="card__header__content">
+                        <i class="fa fa-calendar"></i>
+                        <span>Eventos</span>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+                <div class="card__main"·>
+                    <ul class="card__ul">
+                        <li class="card_li fecha">Hoy
+                            <ul class="card__ul">
+                                <li class="card_li evento">
+                                    <div class="hora">11:00</div>
+                                    <div class="evento_contenido">
+                                        <a class="evento__a" href="">SKM Wireframes checkpoint</a>
+                                        <p>11:00 a 12:00-Sala446</p>
+                                    </div>
+                                </li>
+                                <li class="card_li evento">
+                                    <div class="hora">13:00</div>
+                                    <div class="evento_contenido">
+                                        <a class="evento__a" href="">SKM chill out</a>
+                                        <p>13:00 a 13:40-Sala446</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li class="card_li">
+                        <li class="card_li fecha">Mañana
+                            <ul class="card__ul">
+                                <li class="card_li evento">
+                                    <div class="hora">11:00</div>
+                                    <div class="evento_contenido">
+                                        <a class="evento__a" href="">SKM Wireframes check</a>
+                                        <p>11:00 a 12:00-Sala446</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card__footer">
+                    <div><h3>Ver más <i class="fas fa-chevron-down"></i></h3></div>
+                </div>
+            </div>
+
+            <div class="card notificaciones">
+                <div class="card__header">
+                    <div class="card__header__content">
+                        <i class="fa fa-bell"></i>
+                        <span>Notificaciones</span>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+                <div class="card__main">
+                    <div class="notification">
+                        <div class="notification__header">
+                            <a class="notification__a"  href="">Actualizar bench mark perfiles en proyecto</a>
+                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <p class="notification__p"><span class="notification__span">skm:</span>intranet inteligente</p>
+                            <p class="notification__p2"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Deadline <time datetime="19-09">19/06</time></p>
+                        </div>
+                    </div>
+                    <div class="notification">
+                        <div class="notification__header">
+                            <a class="notification__a" href="">Actualizar documentos</a>
+                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <p class="notification__p"><span class="notification__span" >skm:</span>intranet inteligente</p>
+                            <p class="notification__p2"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Deadline <time datetime="19-09">19/06</time></p>
+                        </div>
+                    </div>
+                    <div class="notification">
+                        <div class="notification__header">
+                            <a class="notification__a"  href="">Actualizar documentos</a>
+                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <p class="notification__p" ><span class="notification__span">skm:</span>intranet inteligente</p>
+                            <p class="notification__p2"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Deadline <time datetime="19-09">19/06</time></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__footer">
+                    <div><h3>Ver más <i class="fas fa-chevron-down"></i></h3></div>
+                </div>
+            </div>
+            <!-- Mail -->
+            <div class="card mails">
+                <div class="card__header">
+                    <div class="card__header__content">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <span>Mail</span>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+                <div class="card__main">
+                    <div class="mail">
+                        <time>20/06/2017 - 13:00</time>
+                        <div class="mail__perfil">
+                            <img class="mail__img" src="img/pefilhombre.jpg" alt="">
+                            <span class="mail__span">Francisco Javier Fernández</span>
+                        </div>
+                        <div class="mail_content">
+                            <a class="business" href="">Nuevos datos password (invision...</a>
+                            <p>Hola equipo, aquí tenéis las actualizaciones de [ANCHO MÁX 247PX]...</p>
+                        </div>
+                    </div>
+                    <div class="mail">
+                        <time>20/06/2017 - 13:00</time>
+                        <div class="mail__perfil">
+                            <img class="mail__img" src="img/pefilhombre.jpg" alt="">
+                            <span class="mail__span">Francisco Javier Fernández</span>
+                        </div>
+                        <div class="mail_content">
+                            <a class="business" href="">Nuevos datos password (invision...</a>
+                            <p>Hola equipo, aquí van las actualizaciones de las pantallas que comentamos el día...</p>
+                        </div>
+                    </div>
+                    <div class="mail">
+                        <time>20/06/2017 - 13:00</time>
+                        <div class="mail__perfil">
+                            <img class="mail__img" src="img/pefilhombre.jpg" alt="">
+                            <span class="mail__span">Francisco Javier Fernández</span>
+                        </div>
+                        <div class="mail_content">
+                            <a class="business" href="">Nuevos datos password (invision...</a>
+                            <p>Hola equipo, aquí van las actualizaciones de las pantallas que comentamos el día...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__footer">
+                    <div><h3>Ver más <i class="fas fa-chevron-down"></i></h3></div>
+                </div>
+            </div>
+
+            <div class="card proyectos">
+                <div class="card__header">
+                    <div class="card__header__content">
+                        <i class="fa fa-folder-open" aria-hidden="true"></i>
+                        <span>Proyectos</span>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+                <div class="card__main card__proyect">
+                    <ul class="card_ul proyect__state">
+                        <li class="card_li state">En curso</li>
+                        <li class="card_li state">Cerrados</li>
+                        <li class="card_li state">Relacionados</li>
+                    </ul>
+                    <div class="proyecto">
+                        <div class="proyect__content">
+                            <a class="proyect__a" href="#" class=""><span class="proyect__span">skm:</span>intranet inteligente </a>
+                            <p class="proyect__p">Proyecto Interno</p>
+                            <input class="proyect__button" type="button" value="Intranet">
+                            <input class="proyect__button" type="button" value="Buscador inteligente">
+                            <input class="proyect__button special" type="button" value="+2">
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <div class="proyect__content">
+                            <a class="proyect__a" href="#" class=""><span class="proyect__span">skm:</span>intranet inteligente </a>
+                            <p class="proyect__p">Proyecto Interno</p>
+                            <input class="proyect__button" type="button" value="Intranet">
+                            <input class="proyect__button" type="button" value="Buscador inteligente">
+                            <input class="proyect__button special" type="button" value="+2">
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <div class="proyect__content">
+                            <a class="proyect__a" href="#" class=""><span class="proyect__span">skm:</span>intranet inteligente </a>
+                            <p class="proyect__p">Proyecto Interno</p>
+                            <input class="proyect__button" type="button" value="Intranet">
+                            <input class="proyect__button" type="button" value="Buscador inteligente">
+                            <input class="proyect__button special" type="button" value="+2">
+                        </div>
+                    </div>
+                </div>
+                <div class="card__footer">
+                    <div><h3>Ver más <i class="fas fa-chevron-down"></i></h3></div>
+                </div>
+            </div>
+            <div class="card contactos">
+                <div class="card__header">
+                    <div class="card__header__content">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <span>Mis contactos</span>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+                <div class="card__main contactos">
+                    <div class="card__main__content">
+                        <ul class="card_ul proyect__state">
+                            <li class="card_li state">Contactos</li>
+                            <li class="card_li state">Grupos</li>
+                            <li class="card_li state">Relacionados</li>
+                        </ul>
+                        <div class="contact">
+                            <div class="contact__content">
+                                <img class="contact__img" src="img/raquel.jpeg" alt="">
+                                <div>
+                                    <a class="contact__a" href="">Raquel Laguna Soriano</a>
+                                    <p>Leader-ExD</p>
+                                </div>
+                                <i class="fas fa-chevron-down contact__i"></i>
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <div class="contact__content">
+                                <img class="contact__img" src="img/alvaro.png" alt="">
+                                <div>
+                                    <a class="contact__a" href="">Álvaro Ruiz Miranda</a>
+                                    <p>Student-IT</p>
+                                </div>
+                                <i class="fas fa-chevron-down contact__i"></i>
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <div class="contact__content">
+                                <img class="contact__img" src="img/maria lopez.jpg" alt="">
+                                <div>
+                                    <a class="contact__a" href="">María López Segarra</a>
+                                    <p>Student-ExD</p>
+                                </div>
+                                <i class="fas fa-chevron-down contact__i"></i>
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <div class="contact__content">
+                                <img class="contact__img" src="img/miguel.jpg" alt="">
+                                <div>
+                                    <a class="contact__a" href="">Miguel Pérez Lobera</a>
+                                    <p>Staff-ExD</p>
+                                </div>
+                                <i class="fas fa-chevron-down contact__i"></i>
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <div class="contact__content">
+                                <img class="contact__img" src="img/francios javier.jpeg" alt="">
+                                <div>
+                                    <a class="contact__a" href="">Francisco Javier Martinez de la Fuente</a>
+                                    <p>Manager-IT</p>
+                                </div>
+                                <i class="fas fa-chevron-down contact__i"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

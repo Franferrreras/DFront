@@ -65,5 +65,230 @@
     margin: 5px;
     align-self: center;
     color: #ffffff; } }
+@media (min-width: 320px) {
+  main {
+    padding: 20px;
+    padding-top: 50px; }
+
+  .card {
+    margin-bottom: 20px;
+    background-color: #ffffff; }
+
+  .card__header {
+    background-color: #4366A6;
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .card__header .fa {
+      font-size: 1.2rem; }
+
+  .card__main {
+    padding: 20px 20px 1px 20px; }
+
+  .card__ul {
+    margin: 0px;
+    padding: 0px; }
+
+  .card_li {
+    list-style-type: none; }
+
+  .fecha {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #6390BD; }
+
+  .evento {
+    display: flex;
+    margin: 20px 0px; }
+
+  .hora {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-radius: 50%;
+    color: white; }
+
+  .evento_contenido {
+    margin-left: 20px; }
+
+  p {
+    color: #686868; }
+
+  .evento__a {
+    font-size: 1.7rem;
+    color: #4479AF;
+    font-weight: bold;
+    text-transform: none; }
+
+  .card__footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #b8b8b8;
+    color: #4366A6; }
+
+  .notification {
+    border-bottom: 1px solid #b8b8b8;
+    padding: 20px 0px; }
+
+  .notification__header {
+    display: flex;
+    justify-content: space-between; }
+
+  .notification__a {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #515151;
+    text-decoration: none;
+    font-weight: bold; }
+
+  .notification__span {
+    text-transform: uppercase; }
+
+  .notification__p {
+    color: #555555;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0px;
+    padding: 15px 0px; }
+
+  .notification__p, .notification__p2 {
+    margin: 0px;
+    padding: 5px 0px; }
+
+  .fa-check-square-o {
+    color: #A8B060; }
+
+  .fa-exclamation-circle {
+    color: #F5A623;
+    font-size: 1.3rem; }
+
+  .mail {
+    border-bottom: 1px solid #b8b8b8;
+    padding-top: 20px; }
+
+  .mail__perfil {
+    display: flex;
+    align-items: center;
+    padding: 15px 0px; }
+
+  .mail__img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; }
+
+  .mail__span {
+    margin-left: 10px; }
+
+  .card__main {
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: #696969; }
+
+  .business {
+    color: #416BAD; }
+
+  .card__proyect {
+    padding: 0px; }
+
+  .proyect__state {
+    width: 100%;
+    margin-top: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #E2E5F1; }
+
+  .state {
+    width: 33.33%;
+    padding: 15px 0px;
+    color: #4851A4;
+    text-align: center; }
+
+  .state:first-child {
+    border-bottom: 3px solid #4851A4;
+    margin-left: 0px; }
+
+  .proyecto {
+    padding: 0px 25px; }
+
+  .proyect__content {
+    border-bottom: 1px solid #b8b8b8;
+    padding: 15px 0px;
+    margin-bottom: 1px;
+    margin-top: 15px; }
+
+  .proyect__span {
+    text-transform: uppercase; }
+
+  .proyect__a {
+    color: #416BAD;
+    font-size: 1.5rem; }
+
+  .proyect__p {
+    font-size: 1.2rem;
+    margin: 10px 0px;
+    color: #525252; }
+
+  .proyect__button {
+    border-radius: 20px;
+    border: 2px solid #E1FBB3;
+    background-color: #E1FBB3;
+    font-size: 1rem;
+    padding: 10px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #363636;
+    margin-top: 10px; }
+
+  .special {
+    background-color: #ffffff;
+    padding: 10px 15px; }
+
+  .contact {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 5px; }
+
+  .contactos {
+    padding: 0px;
+    margin: 0px; }
+
+  .contact {
+    padding: 5px 20px; }
+
+  .contact__img {
+    width: 20%; }
+
+  .contact__content {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+    border-bottom: 1px solid #b8b8b8; }
+
+  .contact__img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px; }
+
+  .contact__a {
+    color: #416BAD; }
+
+  .contact__i {
+    position: absolute;
+    right: 0px; } }
 
 /*# sourceMappingURL=main.css.map */

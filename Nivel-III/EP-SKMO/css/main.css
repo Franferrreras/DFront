@@ -107,6 +107,70 @@
 
   #activar {
     display: none; } }
+@media (min-width: 1024px) {
+  .branding {
+    width: 15%; }
+
+  .menu__container {
+    padding: 5px; }
+
+  .menu__main {
+    width: 80%; }
+
+  .fa-bars {
+    display: none; }
+
+  .search {
+    justify-content: flex-start;
+    width: 30%; }
+
+  #search {
+    padding: 10px;
+    width: 280px; }
+
+  .menu__content {
+    display: initial;
+    width: 50%; }
+
+  .menu {
+    padding: 0px;
+    margin: 5px;
+    display: initial;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center; }
+
+  .menu__item {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    border-radius: 3px; }
+    .menu__item:hover {
+      cursor: pointer;
+      background-color: #ccffaf; }
+
+  .everis__icon {
+    width: 50%; }
+
+  .perfil {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end; }
+
+  .perfil__content {
+    align-items: center;
+    width: 50%; }
+
+  .perfil__img {
+    width: 50px;
+    height: 50px; }
+
+  .perfil__hover:hover {
+    cursor: pointer;
+    background-color: #ccffaf; } }
 @media (min-width: 320px) {
   main {
     padding: 20px;
